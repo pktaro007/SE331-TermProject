@@ -7,9 +7,9 @@ import CAMT.SE331.TermProject.Entity.User;
  * Created by Pktaro on 5/3/2015.
  */
 public interface UserService {
-    void register(User user);
+    User register(User user);
     User login(String username, String password);
-    void logout();
-    User updateProfile();
+    User logout();
+    User updateProfile(User user);
     void sendMail(Activity activity);
 }

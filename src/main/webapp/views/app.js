@@ -1,31 +1,52 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-var labApp = angular.module('labApp', [
+var LabApp = angular.module('labApp', [
     'ngRoute',
-    'productMainController',
     'languageControllers',
     'languageServices',
     'pascalprecht.translate'
 ])
-labApp.config(['$routeProvider',
+LabApp.config(['$routeProvider',
   function($routeProvider) {
   $routeProvider.
       when('/home',{
-          templateUrl: 'template/a.html'
+          templateUrl: 'site/home.html'
       }).
       when('/history',{
-          templateUrl: 'template/editProduct.html',
-          controller: 'editProductController'
+          templateUrl: 'site/history.html'
       }).
-      when('/listProduct',{
-          templateUrl: 'template/productList.html',
-          controller: 'listProductController'
+      when('/activity',{
+          templateUrl: 'site/activity.html'
+      }).
+      when('/dhamma',{
+          templateUrl: 'site/dhamma.html'
+      }).
+      when('/gallery',{
+          templateUrl: 'site/gallery.html'
+      }).
+      when('/qa',{
+          templateUrl: 'site/QA.html'
+      }).
+      when('/contact',{
+          templateUrl: 'site/contact.html'
+      }).
+      when('/register',{
+          templateUrl: 'site/register.html'
+      }).
+      when('/login',{
+          templateUrl: 'site/login.html'
+      }).
+      when('/forgot',{
+          templateUrl: 'site/forgot.html'
+      }).
+      when('/adminpanel',{
+          templateUrl: 'site/adminpanel.html'
       }).
        otherwise({redirectTo: '/home'});
 }]);
 
-labApp.config(function($translateProvider){
+LabApp.config(function($translateProvider){
     $translateProvider.useUrlLoader('/messageBundle');
     $translateProvider.useStorage('UrlLanguageStorage');
     $translateProvider.preferredLanguage('en');

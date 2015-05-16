@@ -10,7 +10,7 @@ import java.util.List;
 public interface ActivityDao {
     List<Activity> getActivities();
     Activity getActivity(int id);
-    void addActivity(Activity activity);
-    void editActivity(Activity activity);
-    void deleteActivity(Activity activity);
+    Activity addActivity(Activity activity);
+    Activity editActivity(Activity activity);
+    Activity deleteActivity(Activity activity);
 }

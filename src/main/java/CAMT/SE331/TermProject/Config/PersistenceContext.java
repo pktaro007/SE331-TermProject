@@ -34,7 +34,7 @@ import java.util.Properties;
  */
 @Configuration
 @EnableTransactionManagement(proxyTargetClass = true)
-@EnableJpaRepositories("camt.se331.shoppingcart.repository")
+@EnableJpaRepositories("CAMT.SE331.TermProject.Repository")
 @PropertySources(value = {@PropertySource("classpath:/hibernate.properties")})
 class PersistenceContext {
     @Autowired

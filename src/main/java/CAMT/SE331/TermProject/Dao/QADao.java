@@ -8,7 +8,7 @@ import java.util.List;
  * Created by Pktaro on 5/3/2015.
  */
 public interface QADao {
-    void addQA(QA qa);
-    void editQA(QA qa);
+    QA addQA(QA qa);
+    QA editQA(QA qa);
     List<QA> getQAs();
 }

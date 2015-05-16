@@ -10,7 +10,7 @@ import java.util.List;
 public interface ActivityService {
     List<Activity> getActivities();
     Activity getActivity(int id);
-    void createActivity(Activity activity);
-    void updateActivity(Activity activity);
-    void deleteActivity(Activity activity);
+    Activity createActivity(Activity activity);
+    Activity updateActivity(Activity activity);
+    Activity deleteActivity(Activity activity);
 }

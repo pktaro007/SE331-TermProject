@@ -8,7 +8,7 @@ import java.util.List;
  * Created by Pktaro on 5/3/2015.
  */
 public interface ContactMessageDao {
-    void addContactMessage(ContactMessage contactMessage);
-    void editContactMessage(ContactMessage contactMessage);
+    ContactMessage addContactMessage(ContactMessage contactMessage);
+    ContactMessage editContactMessage(ContactMessage contactMessage);
     List<ContactMessage> getContactMessages();
 }

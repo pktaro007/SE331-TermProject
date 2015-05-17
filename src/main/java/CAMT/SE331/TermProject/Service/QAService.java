@@ -8,7 +8,7 @@ import java.util.List;
  * Created by Pktaro on 5/4/2015.
  */
 public interface QAService {
-    void createQA(QA qa);
-    void updateQA(QA qa);
+    QA createQA(QA qa);
+    QA updateQA(QA qa);
     List<QA> getQAs();
 }

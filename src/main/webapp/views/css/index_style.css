@@ -1,0 +1,29 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	-webkit-touch-callout:none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+	background: url(../images/head.png) no-repeat bottom center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.enterSite {
+	background: url(../images/entersite.png) no-repeat;
+	height: 75px;
+	width: 476px;
+	margin-top: 550px;
+	margin-left: 450px;
+	background-size: 100% 100%;
+}
+
+
+

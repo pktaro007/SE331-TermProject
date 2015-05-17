@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'quarkbold';
+    src: url('../fonts/quark-bold-webfont.eot');
+    src: url('../fonts/quark-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/quark-bold-webfont.woff2') format('woff2'),
+    url('../fonts/quark-bold-webfont.woff') format('woff'),
+    url('../fonts/quark-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'thaisans_neueregular';
+    src: url('../fonts/thaisansneue-regular-webfont.eot');
+    src: url('../fonts/thaisansneue-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/thaisansneue-regular-webfont.woff2') format('woff2'),
+    url('../fonts/thaisansneue-regular-webfont.woff') format('woff'),
+    url('../fonts/thaisansneue-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sukhumvitreg';
+    src: url('../fonts/sukhumvitreg-webfont.eot');
+    src: url('../fonts/sukhumvitreg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sukhumvitreg-webfont.woff') format('woff2'),
+    url('../fonts/sukhumvitreg-webfont.woff') format('woff'),
+    url('../fonts/sukhumvitreg-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.box {
+    width: 900px;
+    height: auto;
+    margin-top: -20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    background: url("../images/header.png");
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 250px;
+    margin-top: -20px;
+}
+
+.header h1 {
+    width: 100%;
+    padding-top: 170px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'quarkbold';
+    line-height: 30px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.56);
+}
+
+.header small {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'quarkbold';
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.56);
+}
+
+#login {
+    width: 900px;
+    text-align: center;
+    padding: 30px;
+}
+
+.lang {
+    width: 900px;
+    margin-top: 25px;
+    text-align: right;
+    font-size: 14px;
+    font-family: 'sukhumvitreg';
+    color:  #FFFFFF;
+    list-style: none;
+    margin-right: -15px;
+}
+
+.information {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 900px;
+    line-height: 15px;
+    font-size: 18px;
+}
+
+.informationz {
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 900px;
+    line-height: 15px;
+    font-size: 20px;
+}
+
+
+.hidden {
+    display:none;
+}
+
+.form {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout:none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@font-face {
+    font-family: 'sukhumvitreg';
+    src: url('../fonts/sukhumvitreg-webfont.eot');
+    src: url('../fonts/sukhumvitreg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/sukhumvitreg-webfont.woff') format('woff'),
+    url('../fonts/sukhumvitreg-webfont.ttf') format('truetype'),
+    url('../fonts/sukhumvitreg-webfont.svg#sukhumvitreg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 900px;
+}
+
+#content {
+    background-color:#CCC;
+    width: 100%;
+}
+
+#home_content {
+    height: auto;
+    padding: 10px;
+}
+
+#news_content {
+    height: auto;
+    padding: 10px;
+}
+
+#history_content {
+    height: auto;
+    padding: 10px;
+    background: url(../images/historybg.jpg) no-repeat;
+    background-size: cover;
+}
+
+td {
+    padding: 10px;
+}
+
+#QA_content {
+    height: auto;
+    padding: 10px;
+}
+
+#dhamma_content {
+    height: auto;
+    padding: 10px;
+}
+
+#gallery_content {
+    height: auto;
+    padding: 10px;
+}
+
+#activity_content {
+    height: auto;
+    padding: 10px;
+}
+
+#contact_content {
+    height: auto;
+}
+
+#login_content {
+    height: 100px;
+}
+
+#regiter_content {
+    height: 100px;
+}
+
+.detail {
+    padding: 30px;
+    width: auto;
+    height: auto;
+}
+
+.table {
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+
+.bar {
+    background-color: #111504;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 10px;
+    height: 30px;
+    font-family: sukhumvitreg;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: sukhumvitreg;
+    list-style: none;
+}
+
+img .logo {
+    background: url("../images/logo.png");
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+}
+
+.map {
+    padding: 10px;
+    width: 100%;
+}
+
+.user {
+    text-align: center;
+    padding: 20px;
+    top: 10px;
+    color: #FFF;
+    font-size: 24px;
+    font-family:sukhumvitreg;
+    background: url(../images/wrap.png) repeat;
+    background-size: cover;
+}

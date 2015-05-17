@@ -8,7 +8,7 @@ import java.util.List;
  * Created by Pktaro on 5/4/2015.
  */
 public interface ContactMessageService {
-    void addContactMessage(ContactMessage contactMessage);
-    void updateContactMessage(ContactMessage contactMessage);
+    ContactMessage addContactMessage(ContactMessage contactMessage);
+    ContactMessage updateContactMessage(ContactMessage contactMessage);
     List<ContactMessage> getContactMessages();
 }

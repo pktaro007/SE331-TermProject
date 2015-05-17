@@ -7,5 +7,5 @@ import CAMT.SE331.TermProject.Entity.History;
  */
 public interface HistoryService {
     History getHistory(String language);
-    History updateHistory(History history);
+    void updateHistory(History history);
 }

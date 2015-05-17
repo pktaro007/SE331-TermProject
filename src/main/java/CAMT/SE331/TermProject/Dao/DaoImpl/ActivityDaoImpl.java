@@ -2,14 +2,12 @@ package CAMT.SE331.TermProject.Dao.DaoImpl;
 
 import CAMT.SE331.TermProject.Dao.ActivityDao;
 import CAMT.SE331.TermProject.Entity.Activity;
-import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
 /**
  * Created by Pktaro on 5/5/2015.
  */
-@Repository
 public class ActivityDaoImpl implements ActivityDao {
     private Set<Activity> activities;
 

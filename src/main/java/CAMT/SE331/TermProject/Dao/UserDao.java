@@ -11,7 +11,7 @@ public interface UserDao {
     List<User> getUsers();
     User getUser(int id);
     User getUser(String username, String password);
-    User addUser(User user);
-    User editUser(User user);
-    User deleteUser(User user);
+    void addUser(User user);
+    void editUser(User user);
+    void deleteUser(User user);
 }

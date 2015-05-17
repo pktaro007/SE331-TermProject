@@ -7,5 +7,5 @@ import CAMT.SE331.TermProject.Entity.ContactInfo;
  */
 public interface ContactInfoDao {
     ContactInfo getContactInfo();
-    ContactInfo editContactInfo(ContactInfo contactInfo);
+    void editContactInfo(ContactInfo contactInfo);
 }

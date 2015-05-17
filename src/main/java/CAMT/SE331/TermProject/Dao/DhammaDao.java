@@ -6,7 +6,7 @@ import CAMT.SE331.TermProject.Entity.Dhamma;
  * Created by Pktaro on 5/3/2015.
  */
 public interface DhammaDao {
-    Dhamma addDhamma(Dhamma dhamma);
-    Dhamma editDhamma(Dhamma dhamma);
-    Dhamma deleteDhamma(Dhamma dhamma);
+    void addDhamma(Dhamma dhamma);
+    void editDhamma(Dhamma dhamma);
+    void deleteDhamma(Dhamma dhamma);
 }

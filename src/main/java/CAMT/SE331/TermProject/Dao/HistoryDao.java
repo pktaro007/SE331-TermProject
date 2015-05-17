@@ -8,5 +8,5 @@ import CAMT.SE331.TermProject.Entity.History;
  */
 public interface HistoryDao {
     History getHistory(String language);
-    History editHistory(History history);
+    void editHistory(History history);
 }
